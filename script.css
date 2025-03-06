@@ -19,16 +19,19 @@ body {
 .container {
     width: 100%;
     max-width: 400px;
-    background: white;
+    background: rgba(255, 255, 255, 0.2); /* Glassmorphic effect */
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;  /* Curved edges */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
     text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 h2 {
     margin-bottom: 20px;
     font-weight: 600;
+    color: white;
 }
 
 .input-group {
@@ -40,13 +43,16 @@ h2 {
     display: block;
     font-size: 14px;
     margin-bottom: 5px;
+    color: white;
 }
 
 .input-group input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;  /* Curved edges */
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
     transition: 0.3s;
 }
 
@@ -59,7 +65,7 @@ button {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px; /* Curved edges */
     background: #2575fc;
     color: white;
     font-size: 16px;
@@ -74,10 +80,11 @@ button:hover {
 .switch-form {
     margin-top: 15px;
     font-size: 14px;
+    color: white;
 }
 
 .switch-form a {
-    color: #2575fc;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
