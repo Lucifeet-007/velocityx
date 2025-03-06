@@ -1,0 +1,129 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centered login box */
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    width: 380px;
+    text-align: center;
+}
+
+/* Title */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* OTP Button */
+#sendOTP {
+    background: #007bff;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#sendOTP:hover {
+    background: #0056b3;
+}
+
+/* Login Button */
+.login-btn {
+    background: #28a745;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background: #218838;
+}
+
+/* Sign-Up Section */
+.signup-section {
+    margin-top: 15px;
+}
+
+.signup-section a {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.signup-section a:hover {
+    text-decoration: underline;
+}
+
+/* Sign-Up Form (Initially Hidden) */
+.signup-form {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form input {
+    display: block;
+    width: 90%;
+    margin: 8px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.signup-form button {
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background: #218838;
+}
